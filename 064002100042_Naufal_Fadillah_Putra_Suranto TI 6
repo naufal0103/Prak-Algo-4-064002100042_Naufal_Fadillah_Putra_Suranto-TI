@@ -1,0 +1,34 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Oct 29 01:01:22 2021
+
+@author: Naufal Fadillah
+@author: Naufal Fadillah
+NAME  : Naufal Fadillah Putra Suranto 
+NIM    : 064002100042
+"""
+
+print ("@@   @  @@@@  @   @  @@@@  @@@@  @") 
+print ("@ @  @  @  @  @   @  @     @  @  @")
+print ("@  @ @  @@@@  @   @  @@@@  @@@@  @")    
+print ("@   @@  @  @  @@@@@  @     @  @  @@@") 
+
+dia = 0
+while dia == 0:
+    k = input('Masukan list angka: ')
+    genap = []
+    ganjil = []
+    for k in k.split(): 
+        if int(k)%2==0:
+            print('terdapat bilangan genap')
+            break
+        
+        if int(k)%2==1:
+            genap.append(int(k))
+            print('terhadap bilangan genap')
+            break
+        
+        else:
+            print('tidak terdapat bilangan genap')
+            
+
